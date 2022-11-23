@@ -1,0 +1,1041 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+/* ====================
+    menu css start 
+==================== */
+/* font-family: 'Manrope', sans-serif; 
+    #1C3D5B
+font-family: 'Open Sans', sans-serif; */
+.menu-bg {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    margin-top: 28px;
+}
+.menu-bg ul {
+    margin-right: 20px;
+}
+.menu-bg ul li {
+    padding: 0 10px !important;
+}
+.menu-bg ul li a {
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+.blog-link ul li a {
+    color: #000 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.blog-bg .menu-btn a {
+	border: 2px solid #0A2640 !important;
+}
+.menu-btn a {
+    padding: 8px 40px;
+    background-color: #fff;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0A2640;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.menu-btn a:hover {
+    background-color: #69E6A6;
+    color: #fff;
+}
+.nav-bg {
+    background-color:#1C3D5B;
+    animation: upornich 2s;
+    -webkit-animation: upornich 2s;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    margin-top: 0px;
+}
+@keyframes upornich {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+/* ====================
+    menu css end 
+==================== */
+/* ====================
+    banner css start 
+==================== */
+#banner {
+    background: url(../images/banner.png) no-repeat center / cover;
+    padding: 70px 0;
+    position: relative;
+}
+.banner-text h1,p {
+    color: #fff;
+}
+.banner-btn a {
+    padding: 16px 56px;
+    background-color: #65E4A3;
+    border-radius: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #0A2640;
+}
+.banner-btn a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.banner-btn .sub-btn {
+	padding: 16px 56px;
+	border: 2px solid #FFFFFF;
+	border-radius: 56px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: transparent;
+	margin-left: 18px;
+}
+.banner-btn .sub-btn:hover {
+    background-color: #65E4A3;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.banner-main {
+	margin-top: 65px;
+}
+.banner-text h1 {
+	font-weight: 300;
+	font-size: 48px;
+	font-family: 'Manrope', sans-serif;
+	line-height: 72px;
+}
+.banner-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #F1F1F1;
+    margin-bottom: 30px;
+}
+.banner-text {
+	margin-top: 40px;
+}
+.brand-main .halka {
+    opacity: 0.2;
+}
+.brand-main .medium {
+    opacity: 0.7;
+}
+.brand-main .high {
+    opacity: 0.9;
+}
+.brand-main img {
+    width: 85%;
+}
+.brand-main {
+	margin-top: 70px;
+}
+
+.banner-head h6 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #F1F1F1;
+}
+.banner-head h1 {
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 56px;
+	color: #FFFFFF;
+	margin-bottom: 17px;
+}
+.banner-head p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #F1F1F1;
+}
+#about-banner {
+    background-color: #0A2640;
+    padding: 100px 0 140px 0;
+}
+.banner-head {
+	margin-top: 40px;
+}
+/* ====================
+    banner css end 
+==================== */
+/* ====================
+    service css start 
+==================== */
+#service {
+    padding-top: 65px;
+}
+.service-head p {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+}
+.service-head h2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 60px;
+    color: #000000;
+    
+}
+.ser-person {
+	border: none;
+}
+.ser-person img {
+	width: 85% !important;
+}
+
+.ser-person p {
+    color: #000;
+}
+.ser-person a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 36px;
+    color: #0A2640;
+    border-bottom: 1px solid #0A2640;
+}
+.ser-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #777777;
+}
+.ser-details i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.card-body.ser-details {
+	padding-left: 0 !important;
+}
+.service-main {
+	margin-left: 40px;
+	margin-top: 45px;
+}
+/* ====================
+    service css end 
+==================== */
+/* ====================
+    male css start 
+==================== */
+#male {
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+.male-img img {
+    width: 85%;
+}
+.male-description p {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.male-description h2 {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+	margin-bottom: 35px;
+}
+.male-description i {
+	font-size: 26px;
+	color: #0A2640;
+	margin-right: 15px;
+}
+.male-description {
+	margin-left: 15px;
+	margin-top: 80px;
+}
+
+.male-main .male-btn a {
+    padding: 16px 56px;
+    background: #0A2640;
+    border-radius: 56px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.male-main .male-btn a:hover {
+    background-color: #69E6A6;
+    color: #fff;
+}
+.male-btn {
+	margin-top: 46px;
+}
+/* ====================
+    male css end 
+==================== */
+/* ====================
+    female css start 
+==================== */
+.female-caption h2 {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 56px;
+	color: #000000;
+	margin-bottom: 50px;
+}
+.female-caption {
+	margin-top: 110px;
+}
+.female-img img {
+	width: 85%;
+}
+.female-caption p {
+	width: 410px;
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 28px;
+	color: #FFFFFF;
+	background-color: #0A2640;
+	padding: 12px 15px;
+	margin-bottom: 20px;
+}
+.female-caption p i {
+	padding-right: 5px;
+}
+.female-caption h6 i {
+	padding-right: 5px;
+}
+.female-caption h6 {
+    width: 410px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.female-caption h6:hover {
+	background-color: #0A2640;
+	color: #fff;
+}
+#female {
+    padding-bottom: 55px;
+}
+/* ====================
+    testimonial css start 
+==================== */
+#testimonial {
+    padding: 80px 0;
+    background-color: #0A2640;
+    position: relative;
+}
+.test-head h2 {
+    color: #fff;
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 72px;
+}
+.test-item {
+	padding: 40px;
+	background: #FFFFFF;
+	box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+	border-radius: 12px;
+	margin: 0px 10px;
+}
+.test-img img {
+    width: 100%;
+}
+.test-content {
+    display: flex;
+}
+.test-text p {
+    color: #000;
+}
+.test-text h5 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+	color: #0A2640;
+	margin-bottom: 0;
+}
+.test-text h6 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #0A2640;
+}
+.test-item p {
+	color: #000;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+.test-img {
+	margin-right: 15px;
+}
+
+.test-card {
+	margin-top: 50px;
+}
+/* ====================
+    testimonial css end 
+==================== */
+/* ====================
+    multimedia css start 
+==================== */
+#multimedia {
+    padding-top: 110px;
+}
+.multi-img img {
+    width: 100%;
+}
+.multi-title h2 {
+	left: 150px;
+	top: 4828px;
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 50px;
+	color: #000000;
+}
+.multi-content {
+	padding-top: 50px;
+}   
+.multi-description {
+	margin-top: 10px;
+}
+.accordion-button::after {
+	background-image: url(../images/checked.png);
+    color: #000000;
+}
+.accordion-button.collapsed {
+    font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+	border-bottom: 1px solid #C4C4C4 !important;
+}
+/* ====================
+    multimedia css end 
+==================== */
+/* ====================
+    blog css start 
+==================== */
+.blog-head p {
+    color: #000;
+}
+.blog-head h2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.blog-head p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+#blog {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.blog-item {
+    border: 0;
+}
+.blog-item p {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+}
+#blog .blog-caption {
+	padding-left: 0;
+}
+.blog-author {
+    display: flex;
+}
+.blog-title-left h5 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+}
+.blog-title-right h6 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #777777;
+	margin-left: 15px;
+}
+.blog-caption .blog-extra {
+	margin-top: 43px;
+}
+.author-name h4 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+.author-name {
+	margin-left: 10px;
+}
+.blog-btn a {
+    padding: 16px 56px;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A2640;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.blog-btn a:hover {
+    background-color: #69E6A6;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.blog-btn {
+	margin-top: 50px;
+}
+.blog-item img {
+	width: 95% !important;
+}
+/* ====================
+    advertise css start 
+==================== */
+#floatingInput {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+}
+.advertise-main {
+    background: url(../images/boldothumbnail.png) no-repeat center / cover;
+    padding: 40px 0;
+}
+.advertise-btn a {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 16px 56px;
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    border-radius: 56px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0A2640;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+.advertise-head h2 {
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 64px;
+	color: #FFFFFF;
+	margin-bottom: 42px;
+	margin-top: 20px;
+}
+.advertise-btn a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid transparent;
+}
+.form-main label {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-left: 15px;
+}
+/* ====================
+    advertise css end 
+==================== */
+/* ====================
+    footer css start 
+==================== */
+.footer-description p {
+	color: #000;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	color: #777777;
+	margin-bottom: 50px;
+}
+.footer-copyright p {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #777777;
+}
+#footer h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+#footer ul li a {
+	padding: 3px 12px;
+	background: #65E4A3;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 12px;
+	color: #0A2640;
+	border-radius: 120px;
+}
+#footer {
+    padding: 150px 0 70px 0;
+}
+.footer-logo {
+	margin-bottom: 40px;
+}
+#footer ul {
+	margin-top: 47px;
+}
+#footer ul li {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 17px;
+	color: #777777;
+	margin-bottom: 30px;
+}
+/* ====================
+    footer css end 
+==================== */
+/* ====================
+    portfolio css start 
+==================== */
+.port-img {
+	margin-bottom: 30px;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.portfolio-item {
+	margin-top: -95px;
+}
+/* ====================
+    portfolio css end 
+==================== */
+/* ====================
+    story css start 
+==================== */
+.story-text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	color: #777777;
+	margin-top: 20px;
+	margin-bottom: 42px;
+}
+.story-text h6 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 19px;
+    color: #777777;
+}
+
+.story-text h2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 55px;
+    color: #000000;
+}
+#story {
+    padding-top: 50px;
+    padding-bottom: 60px;
+} 
+/* ====================
+    story css end 
+==================== */
+/* ====================
+    number css start 
+==================== */
+.numbers-head p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 20px;
+    color: #F1F1F1;
+}
+.numbers-head h2 {
+	color: #fff;
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 62px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+#numbers {
+    background-color: #0A2640;
+    padding: 80px 0;
+}
+.numbers-main h2 {
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 88px;
+	color: #4FE9A4;
+}
+.numbers-main p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 23px;
+    color: #F1F1F1;
+}
+.numbers-main .side {
+	margin-left: -18px;
+}
+/* ====================
+    number css end 
+==================== */
+/* ====================
+    team css start 
+==================== */
+#team {
+    padding: 80px 0 50px 0;
+}
+.team-item p {
+    color: #000;
+}
+.team-item {
+    margin: 10px !important;
+}
+.team-item h2 {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 28px;
+    color: #000000;
+}
+.team-item p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+.team-content {
+    margin-top: 27px;
+}
+/* ====================
+    team css end 
+==================== */
+/* ====================
+    value css start 
+==================== */
+#value {
+    background-color: #0A2640;
+    padding: 90px 0 35px 0;
+}
+.value-head h2 {
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 42px;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+.value-head h6 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.value-item h2 {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.value-item p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 32px;
+    color: #F1F1F1;
+}
+.value-part {
+	margin-bottom: 60px;
+}
+.value-head p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	color: #F1F1F1;
+	margin-bottom: 70px;
+}
+/* ====================
+    value css end 
+==================== */
+/* ====================
+    blog css start 
+==================== */
+#blog-banner {
+    padding: 100px 0;
+}
+.blog-content p {
+    color: #000;
+}
+
+.blog-bg .menu-btn a {
+	border: 2px solid #0A2640 !important;
+}
+.blog-banner-head h6 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0A2640;
+}
+.blog-banner-head h1 {
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 84px;
+    color: #0A2640;
+}
+.blog-banner-head {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.blog-validation h6 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	color: #0A2640;
+	margin-right: 10px;
+}
+.blog-validation h5 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #777777;
+}
+
+#blog-banner h2 {
+	font-family: 'Manrope';
+	font-weight: 300;
+	font-size: 42px;
+	color: #000000;
+	margin-bottom: 20px;
+	margin-left: 48px;
+}
+.blog-content p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 15px;
+	color: #000000;
+	line-height: 32px;
+	margin-left: 10px;
+}
+.blog-validation {
+	margin-top: 60px;
+	margin-left: 50px;
+}
+.blogs-author {
+	margin-left: 48px;
+}
+.blog-main-part {
+	border-bottom: 1px solid #0A2640;
+	padding-bottom: 55px;
+}
+.blog-partsitem {
+	margin-top: 80px;
+}
+/* ====================
+    blog css end 
+==================== */
+/* ====================
+    latest css start 
+==================== */
+.latest-head h2 {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 46px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.latest-down {
+    margin-top: 40px;
+}
+/* ====================
+    prev-next css start 
+==================== */
+.prev {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 28%;
+	right: 150px;
+	transform: translate(-50%,-50%) !important;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 1;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.next {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: absolute;
+	top: 28%;
+	transform: translate(-50%,-50%) !important;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	z-index: 1;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	right: 80px;
+}
+/* ====================
+    prev-next css end 
+==================== */
+/* ====================
+    bottom2top css start 
+==================== */
+.bottom2top {
+    width: 40px;
+    height: 40px;
+    background-color: #1C3D5B;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    border: 2px solid transparent;
+}
+.bottom2top:hover {
+	background-color: #fff;
+	color: #1C3D5B;
+    border: 2px solid #1C3D5B;
+}
+/* ====================
+    bottom2top css end 
+==================== */
